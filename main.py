@@ -6,7 +6,7 @@ import pandas as pd
 app=Flask(__name__)
 app.secret_key=os.urandom(24)
 
-conn=mysql.connector.connect(host="remotemysql.com",user="3Bqv6hLogw",password="wGwACLhVwh",database="3Bqv6hLogw")
+conn=mysql.connector.connect(host="sql4.freemysqlhosting.net",user="sql4466867",password="EUdxD6lg97",database="sql4466867")
 cursor=conn.cursor()
 
 @app.route('/')
